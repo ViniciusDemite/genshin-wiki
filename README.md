@@ -10,8 +10,8 @@ O projeto consiste em recriar uma Wiki do jogo Genshin Impact. Serão usadas de 
 Após baixar o projeto será necessário seguir os seguintes passo:
 
 1. Copiar o aquivo .env.example e renomear para .env
-    1.1 Pode ser realizado com o comando `cp .env.example .env` no Ubuntu
-    1.1 Nesse arquivo será necessário preencher as informações do banco de dados
+    1. Pode ser realizado com o comando `cp .env.example .env` no Ubuntu
+    2. Nesse arquivo será necessário preencher as informações do banco de dados
 2. Executar o comando `composer install`
 3. Executar o comando `php artisan key:generate`
 4. Executar o comando `php artisan migrate --seed`
