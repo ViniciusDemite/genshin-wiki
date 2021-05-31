@@ -16,7 +16,6 @@ class DatabaseSeeder extends Seeder
             RoleSeeder::class,
             StatusSeeder::class,
             AscensionSeeder::class,
-            PassiveSeeder::class,
         ]);
     }
 }

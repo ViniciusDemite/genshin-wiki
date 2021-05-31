@@ -23,3 +23,4 @@ Após baixar o projeto será necessário seguir os seguintes passo:
 Segue a lista de extensões utilizadas nesse projeto:
 
 - **[Laravel Debugbar](https://github.com/barryvdh/laravel-debugbar)**
+- **[Laravel Medialibrary](https://github.com/spatie/laravel-medialibrary)**
