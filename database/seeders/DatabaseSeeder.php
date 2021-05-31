@@ -15,6 +15,7 @@ class DatabaseSeeder extends Seeder
             RegionSeeder::class,
             RoleSeeder::class,
             StatusSeeder::class,
+            AscensionSeeder::class,
         ]);
     }
 }
