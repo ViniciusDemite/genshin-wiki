@@ -6,12 +6,13 @@ use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
 {
-    public function run()
+    public function run(): void
     {
         $this->call([
             GenderSeeder::class,
             ElementSeeder::class,
             WeaponTypeSeeder::class,
+            RegionSeeder::class,
         ]);
     }
 }

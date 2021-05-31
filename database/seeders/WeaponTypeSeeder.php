@@ -11,24 +11,24 @@ class WeaponTypeSeeder extends Seeder
     {
         $weaponTypes = [
             [
-                'Sword',
-                'sword'
+                'name' => 'Sword',
+                'slug' => 'sword'
             ],
             [
-                'Polearm',
-                'polearm'
+                'name' => 'Polearm',
+                'slug' => 'polearm'
             ],
             [
-                'Claymore',
-                'claymore'
+                'name' => 'Claymore',
+                'slug' => 'claymore'
             ],
             [
-                'Catalyst',
-                'catalyst'
+                'name' => 'Catalyst',
+                'slug' => 'catalyst'
             ],
             [
-                'Bow',
-                'bow'
+                'name' => 'Bow',
+                'slug' => 'bow'
             ],
         ];
 

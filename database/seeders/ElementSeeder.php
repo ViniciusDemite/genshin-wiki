@@ -11,32 +11,32 @@ class ElementSeeder extends Seeder
     {
         $elements = [
             [
-                'Electro',
-                'electro'
+                'name' => 'Electro',
+                'slug' => 'electro'
             ],
             [
-                'Geo',
-                'geo'
+                'name' => 'Geo',
+                'slug' => 'geo'
             ],
             [
-                'Pyro',
-                'pyro'
+                'name' => 'Pyro',
+                'slug' => 'pyro'
             ],
             [
-                'Hydro',
-                'hydro'
+                'name' => 'Hydro',
+                'slug' => 'hydro'
             ],
             [
-                'Cryo',
-                'cryo'
+                'name' => 'Cryo',
+                'slug' => 'cryo'
             ],
             [
-                'Dendro',
-                'dendro'
+                'name' => 'Dendro',
+                'slug' => 'dendro'
             ],
             [
-                'Anemo',
-                'anemo'
+                'name' => 'Anemo',
+                'slug' => 'anemo'
             ]
         ];
 
