@@ -13,6 +13,8 @@ class DatabaseSeeder extends Seeder
             ElementSeeder::class,
             WeaponTypeSeeder::class,
             RegionSeeder::class,
+            RoleSeeder::class,
+            StatusSeeder::class,
         ]);
     }
 }

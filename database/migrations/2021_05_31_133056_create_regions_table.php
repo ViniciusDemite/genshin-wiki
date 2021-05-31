@@ -11,7 +11,7 @@ class CreateRegionsTable extends Migration
         Schema::create('regions', function (Blueprint $table) {
             $table->id();
             $table->string('name', 150);
-            $table->string('slug', 150)->uniqid();
+            $table->string('slug', 150)->unique();
         });
     }
 
