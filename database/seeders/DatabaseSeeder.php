@@ -17,6 +17,7 @@ class DatabaseSeeder extends Seeder
             StatusSeeder::class,
             AscensionSeeder::class,
             SkillTypeSeeder::class,
+            StatusBonusSeeder::class,
         ]);
     }
 }
