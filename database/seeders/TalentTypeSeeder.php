@@ -2,14 +2,14 @@
 
 namespace Database\Seeders;
 
-use App\Models\SkillType;
+use App\Models\TalentType;
 use Illuminate\Database\Seeder;
 
-class SkillTypeSeeder extends Seeder
+class TalentTypeSeeder extends Seeder
 {
     public function run(): void
     {
-        $skillTypes = [
+        $talentTypes = [
             [
                 'name' => 'Normal Atack',
                 'slug' => 'normal-atack'
@@ -26,8 +26,12 @@ class SkillTypeSeeder extends Seeder
                 'name' => 'Alternate Sprint',
                 'slug' => 'alternate-sprint'
             ],
+            [
+                'name' => 'Utility Passive',
+                'slug' => 'utility-passive'
+            ]
         ];
 
-        SkillType::insert($skillTypes);
+        TalentType::insert($talentTypes);
     }
 }
