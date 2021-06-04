@@ -19,6 +19,7 @@ class DatabaseSeeder extends Seeder
             TalentTypeSeeder::class,
             StatusBonusSeeder::class,
             RaritySeeder::class,
+            CharacterSeeder::class,
         ]);
     }
 }
